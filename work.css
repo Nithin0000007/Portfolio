@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homep {
+    height: 5%;
+    width: 100%;
+    text-align: end;
+    padding: 50px;
+    font-size: large;
+    position: sticky;
+}
+
+.home>a {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.home>a:hover {
+    font-size: larger;
+}
+
+.content {
+    height: 95%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h01 {
+    font-size: 100px;
+    margin-bottom: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.content>p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.container2 {
+    height: 200vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+}
+
+.skills {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hskill {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.ALL-F-END {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.F-END {
+    height: 100%;
+    width: 12%;
+    background-color: white;
+    border-width: 10px 10px 10px 10px;
+    -o-border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+    border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+    border-image-slice: 9;
+    /*these three lines are picked */
+    border-style: solid;
+    box-shadow: 5px 5px purple;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.F-END:hover {
+    height: 260px;
+    width: 220px;
+    transition: 100ms;
+    box-shadow: 10px 10px purple;
+}
+
+.container3 {
+    height: 150vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+}
+
+.projects {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.ALL-PROJECTS{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.project_N{
+    height: 40%;
+    width: 45%;
+    border-width: 12px 12px 12px 12px;
+    -o-border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+    border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+    border-image-slice: 9;
+    /*these three lines are picked */
+    border-style: solid;
+}
+.project_N > img{
+    height: 80%;
+    width: 100%;
+}
+.project_N > h3{
+    height: 20%;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.project_N:hover{
+    height: 45%;
+    width: 50%;
+    cursor: pointer;
+    transition: 100ms;
+}
+
